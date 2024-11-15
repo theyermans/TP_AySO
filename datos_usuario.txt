@@ -1,1 +1,2 @@
 “Usuario=vagrant”
+model name	: AMD Ryzen 5 PRO 4650G with Radeon Graphics
