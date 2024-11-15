@@ -1,0 +1,81 @@
+exit
+ls
+cd repogit
+ls
+cd ..
+ls
+cd TP_AySO
+ls
+cd ~/repogit/UTN-FRA_SO_onBording
+ls
+cat README.md
+git status
+echo "Hola, UTN" > prueba.txt
+git add prueba.txt
+git commit -m "Añadi un archivo de prueba"
+cd ..
+ls
+cs..
+cd ..
+ls
+cd TP_AySO
+cd ~/repogit/TP_AySO
+pwd
+ls
+LS
+ls
+cd ..
+ls
+cd repogit
+ls
+git clone https://github.com/theyermans/Vagrant_Repo.git
+cd TP_AySO
+ls
+pwd
+git clone https://github.com/theyermans/TP_AySO.git
+ls
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release
+grep home_url /etc/os-release -i
+grep <-i> Home_url /etc/os-release 
+grep -i Home_url /etc/os-release 
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git git config --global user.email "gastadelmand@gmail.com"
+git config --global user.email "gastadelmand@gmail.com"
+git config --global user.name "theyermans"
+git commit -m "ADD: agregando 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+tail -n5 README.md
+tail -n5 datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenados"
+echo "tcpdump" > comando_dump_net
+echo "man -k traffic | grep capture" >> comando_dump_net
+cat comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << EOF >> datos_usuario.txt
+Alumno: stadelman
+División: 311
+Turno: noche
+EOF
+
+tail -n5 datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "docs: Agregar información del alumno al datos_usuario.txt"
+history -a
